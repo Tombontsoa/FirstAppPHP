@@ -5,10 +5,9 @@
         <title>About</title>
     </head>
     <body>
-        <nav>
-            <a href="home.php" > Home </a>
-            <a href="about.php" > About </a>
-        </nav>
+        <?php 
+            include 'Partials/navbar.php' 
+        ?>
         <h1> About </h1>
         <footer>
             
